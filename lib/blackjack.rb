@@ -29,6 +29,7 @@ def initial_round
 end
 
 def hit? (num)
+  binding.pry
   card = num
   prompt_user  
   h_s = get_user_input
